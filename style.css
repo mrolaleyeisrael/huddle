@@ -168,9 +168,9 @@ main {
 .cta-container {
   padding: 0 10px;
   position: relative;
+  width: 100%;
   z-index: 10;
   margin-bottom: -60px;
-
 }
 
 .cta {
@@ -179,6 +179,9 @@ main {
   align-items: center;
   justify-content: center;
   /* z-index: 10; */
+  /* position: absolute;
+  left: 50%;
+  transform: translate(-50%); */
   bottom: -80px;
   text-align: center;
   padding: 40px 10px;
@@ -393,9 +396,6 @@ footer {
     grid-column: 2;
     grid-row: 1;
   }
-
-
-
 
   .grow-right h2,
   .flow-right h2,
