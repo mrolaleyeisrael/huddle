@@ -419,7 +419,7 @@ footer {
 
   .top-footer {
     grid-template-columns: 2fr 1fr 1fr 1fr;
-    gap: 100px;
+    gap: 2rem;
     width: 90%;
     margin: auto;
     padding: 0;
