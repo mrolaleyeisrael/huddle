@@ -37,8 +37,35 @@ nav button {
 
 main {
   /* padding: 10px; */
-  /* position: relative; */
+  position: relative;
 }
+
+.bubbles{
+  position: relative;
+  display: flex;
+}
+
+.bubbles span{
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background: #4fc3dc;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #4fc3dc,
+  0 0 50px #4fc3dc,
+  0 0 100px #4fc3dc;
+  animation: animate 15s linear infinite;  
+}
+
+@keyframes animate {
+  0%{
+    transform: translateY(100vh) scale(0);
+  }
+  
+}
+
+
 
 .intro {
   background-color: hsl(193, 100%, 96%);
@@ -71,6 +98,7 @@ main {
   margin-bottom: 30px;
   padding: 0 10px;
 }
+
 
 .intro-left p {
   font-family: 'Open Sans', sans-serif;
@@ -452,7 +480,7 @@ footer {
     padding-bottom: 0;
   }
 
-  .bottom{
+  .bottom {
     text-align: right;
     margin-right: 85px;
   }
