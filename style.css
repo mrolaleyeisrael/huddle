@@ -213,7 +213,8 @@ main {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-.cta button:hover, .intro-left button:hover{
+.cta button:hover,
+.intro-left button:hover {
   background-color: hsl(322, 37%, 65%);
   cursor: pointer;
 }
@@ -283,6 +284,11 @@ footer {
   margin-bottom: 10px;
 }
 
+.column2 p:hover,
+.column3 p:hover {
+  text-decoration: underline;
+}
+
 .column3 {
   margin-bottom: 30px;
 }
@@ -295,10 +301,23 @@ footer {
 
 .column4 p {
   margin-right: 10px;
-  color: white;
   border: 1px solid white;
   border-radius: 100px;
   padding: 5px 8px;
+}
+
+
+.column4 p:hover {
+  border: 1px solid hsl(322, 100%, 66%);
+}
+
+.column4 p .fab {
+  color: white;
+}
+
+.column4 p .fab:hover {
+  color: hsl(322, 100%, 66%);
+
 }
 
 .bottom {
@@ -323,7 +342,6 @@ footer {
     font-size: 1.1rem;
   }
 
-  .intro {}
 
   .intro-container {
     grid-template-columns: 1fr 1fr;
@@ -419,7 +437,7 @@ footer {
     padding: 0;
   }
 
-  .cta-container{
+  .cta-container {
     max-width: 600px;
     position: relative;
     margin-left: auto;
